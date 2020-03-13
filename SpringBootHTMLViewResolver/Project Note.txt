@@ -1,0 +1,1 @@
+This project resolves html view using application.properties.
