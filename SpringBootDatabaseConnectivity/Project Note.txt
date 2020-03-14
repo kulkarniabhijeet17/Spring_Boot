@@ -1,0 +1,1 @@
+This project establish connection with oracle database using default configurations provided by Spring Framework.
