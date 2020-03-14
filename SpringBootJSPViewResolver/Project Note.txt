@@ -1,0 +1,1 @@
+This project resolves jsp view using application.properties.
