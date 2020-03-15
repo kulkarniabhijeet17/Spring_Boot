@@ -1,0 +1,8 @@
+This project performs external configuration using Command-line arguments. Execute below command from command prompt-
+On Windows:
+java -jar springbootapp.jar --server.port=8081 --spring.config.location=file:///D:/config.properties
+On Linux:
+java -jar springbootapp.jar --server.port=8081 --spring.config.location=file:///local/props/config.properties
+To refer multiple configuration files, provide comma separated list of property files or file location as below-
+java -jar springbootapp.jar --server.port=8081 --spring.config.location=config/dir/
+java -jar springbootapp.jar --server.port=8081 --spring.config.location=classpath:/default.properties,classpath:/override.properties
