@@ -1,0 +1,1 @@
+This project performs external configuration using SpringApplication.setDefaultProperties(Map<String, Object> configProps).
