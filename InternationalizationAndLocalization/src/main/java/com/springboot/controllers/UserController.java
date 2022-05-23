@@ -14,7 +14,7 @@ public class UserController {
     private MessageSource messageSource;
 
     // Internationalization
-    @GetMapping(path = "/hello-world-internationalized")
+    @GetMapping(path = "/internationalized")
     public String helloWorldInternationalized(@RequestHeader(name = "Accept-Language", required = false) Locale locale) {
         return messageSource.getMessage("good.morning.message", null, locale);
     }
